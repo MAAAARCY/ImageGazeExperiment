@@ -113,7 +113,17 @@ public class Recorder : MonoBehaviour
 
     private void OutputCSV(string imageName)
     {
-        var fileName = FileUtils.LogFolderPath(subjectData) + $"\\{displayCount}_{imageName}_record.csv";
+        var fileName = "";
+
+        if (displayCount < 10)
+        {
+            fileName = FileUtils.LogFolderPath(subjectData) + $"\\0{displayCount}_{imageName}_record.csv";
+        }
+        else
+        {
+            fileName = FileUtils.LogFolderPath(subjectData) + $"\\{displayCount}_{imageName}_record.csv";
+        }
+        
         GenerateCSV(recordData, fileName);
         
         Debug.Log(fileName + "is recorded.");

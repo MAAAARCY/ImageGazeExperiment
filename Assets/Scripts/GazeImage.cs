@@ -28,7 +28,7 @@ public class GazeImage : MonoBehaviour
 
     private float totalTime = 0f;
     private float elapsedTime = 0f;
-    private float timeSpan = 10f;
+    private float timeSpan = 5f;
 
     private bool isRecordCompleted = false;
     private bool isExperimentInitialized = false;
