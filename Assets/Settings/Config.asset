@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dc7ff45830946b4583cf3cd26fd3126, type: 3}
+  m_Name: Config
+  m_EditorClassIdentifier: 
+  testSubjectInfo:
+  - Name: "\u8C37\u660C\u4FCA"
+    Grade: 1A14
+    ExperimentalDate: 2024/10/02
